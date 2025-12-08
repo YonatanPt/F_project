@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>מערכת זיהוי בזמן אמת</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>צפייה והתראות בזמן אמת</h1>
+    </header>
+    <div class="container">
+        <div class="video-section">
+            <h2>שידור חי</h2>
+            <img id="videoStream" src="http://127.0.0.1:5000/video_feed" alt="Live Video Feed">
+        </div>
+
+        <div class="alerts-section">
+            <h2>התראות</h2>
+            <ul id="alertsList">
+            </ul>
+        </div>
+    </div>
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

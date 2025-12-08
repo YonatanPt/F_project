@@ -1,0 +1,38 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.video-section img {
+    width: 640px; /* התאם לגודל הפריימים */
+    border: 2px solid #ccc;
+}
+
+.alerts-section {
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+#alertsList {
+    list-style: none;
+    padding: 0;
+}
+
+.alert-item {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+    color: #cc0000; /* צבע אדום להתראה */
+    font-weight: bold;
+}
