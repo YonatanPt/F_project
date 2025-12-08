@@ -1,0 +1,13 @@
+env/
+.venv/
+__pycache__/
+*.pyc
+/.vs/F_Project/FileContentIndex/15b894b8-0842-4308-96d0-13fd666a8355.vsidx
+/.vs/F_Project/FileContentIndex/51c271c9-e44e-42ca-aebf-882fd1aec4bc.vsidx
+*.vsidx
+/.vs/F_Project/FileContentIndex/054a1bf1-8cf8-407f-9cbe-826cafe097be.vsidx
+/.vs/F_Project/FileContentIndex/20d553f0-bc04-4446-b80e-112aaaa380bd.vsidx
+/.vs/F_Project/FileContentIndex/be7d4fdd-7480-45ac-b9a6-225373bb7839.vsidx
+# Visual Studio files
+.vs/
+*.user

@@ -1,8 +1,0 @@
-# Virtual Environment
-env/
-.venv/
-# Visual Studio Files
-*.suo
-# Python Caches
-__pycache__/
-*.pyc
