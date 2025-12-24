@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 set -o errexit
 
+# התקנת ספריות ה-Python בלבד (כולל OpenCV ו-YOLO)
 pip install -r requirements.txt
-
-# התקנת ספריות גרפיקה עבור OpenCV ו-YOLO
-apt-get update && apt-get install -y libgl1-mesa-glx libglib2.0-0
